@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 function App() {
     return (
@@ -6,11 +7,11 @@ function App() {
             <h2>Chapters</h2>
             <div className="list">
                 <ol>
-                    <li><a href="/intersectionObserver">Intersection Observer</a></li>
-                    <li><a href="/localForage">localForage API</a></li>
-                    <li><a href="/cache">Cache API</a></li>
-                    <li><a href="/mem">Device Memory </a></li>
-                    <li><a href="/apis">Useful APIS</a></li>
+                    <li><Link to="/intersectionObserver">Intersection Observer</Link></li>
+                    <li><Link to="/localForage">localForage API</Link></li>
+                    <li><Link to="/cache">Cache API</Link></li>
+                    <li><Link to="/mem">Device Memory </Link></li>
+                    <li><Link to="/apis">Useful APIS</Link></li>
                 </ol>
             </div>
         </div>

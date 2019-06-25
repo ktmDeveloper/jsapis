@@ -58,8 +58,9 @@ button.yellow {
 }
 
 .list{
-  width:400px;
-  margin:0 auto;
+  width: 80%;
+  max-width: 400px;
+  margin: 0 auto;
   }
   
   .list ol{
