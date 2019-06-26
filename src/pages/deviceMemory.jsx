@@ -13,7 +13,7 @@ export default function deviceMemory() {
             <div className="centerAndBox">
             
                 <h2>
-                    {mem ? `Your device has ${mem}MB RAM` : 'This device doesnot support navigator.deviceMemory'}
+                    {mem ? `Your device has ${mem}GB RAM` : 'This device doesnot support navigator.deviceMemory'}
                 </h2>
             </div>
         </div>
